@@ -9,12 +9,12 @@ variable "k8s_ami_id" {
 }
 
 variable "rancher_instance_type" {
-    description = "EC2 instance type"
+    description = "Rancherinstance type"
     type        = string
 }
 
 variable "k8s_instance_type" {
-    description = "EC2 instance type"
+    description = "K8s instance type"
     type        = string
 }
 
@@ -29,11 +29,11 @@ variable "subnet_id" {
 }
 
 variable "rancher_security_group_ids" {
-    description = "Security group IDs"
+    description = "Rancher security group IDs"
     type        = list(string)
 }
 
 variable "k8s_security_group_ids" {
-    description = "Security group IDs"
+    description = "K8s security group IDs"
     type        = list(string)
 }
