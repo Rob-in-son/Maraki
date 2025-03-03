@@ -14,3 +14,10 @@ variable "private_subnet_cidrs" {
     type = list
     default = ["10.0.3.0/24", "10.0.4.0/24"]
 }
+
+variable "region" {
+    description = "AWS region where the resources will be created"
+    type = string
+    default = "us-east-1"
+
+}
