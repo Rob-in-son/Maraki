@@ -1,4 +1,4 @@
-resource "aws_instance" "Rancher_ec2" {
+resource "aws_instance" "rancher_ec2" {
     ami             = var.rancher_ami_id
     instance_type   = var.rancher_instance_type
     key_name        = var.key_name
